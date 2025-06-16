@@ -1,0 +1,20 @@
+# .gitignore
+
+# Môi trường ảo
+env/
+venv/
+*/.env
+
+# Database
+db.sqlite3
+*.sqlite3
+
+# File media do người dùng upload
+/media/
+
+# Các file của Python
+*.pyc
+__pycache__/
+
+# Các file hệ thống
+.DS_Store
